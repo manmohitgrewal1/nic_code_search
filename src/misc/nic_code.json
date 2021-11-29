@@ -1,0 +1,330 @@
+{
+  "A": {
+    "section_title": "Agriculture hunting and forestry",
+    "divisions": [
+      {
+        "divison_code": "01",
+        "division_title": "Agriculture  hunting and related service activities"
+      },
+      {
+        "divison_code": "02",
+        "division_title": "Forestry logging and related service activities"
+      }
+    ]
+  },
+  "B": {
+    "section_title": "Fishing",
+    "divisions": [
+      {
+        "divison_code": "05",
+        "division_title": "Fishing operation of fish hatcheries and fish farms service activities incidental to fishing"
+      }
+    ]
+  },
+  "C": {
+    "section_title": "Mining and quarrying",
+    "divisions": [
+      {
+        "divison_code": "10",
+        "division_title": "Mining of coal and lignite extraction of peat"
+      },
+      {
+        "divison_code": "11",
+        "division_title": "Extraction of crude petroleum and natural gas service activities  incidental to oil and gas extraction excluding surveying"
+      },
+      {
+        "divison_code": "12",
+        "division_title": "Mining of uranium and thorium ores"
+      },
+      {
+        "divison_code": "13",
+        "division_title": "Mining of metal ores [ this division includes the extraction of metal ores the term ?ores? being applied to metalliferrous minerals associated with the substance in which they occur and with which they are extracted from the mine. preparation of ores most important by ?concentration? for further metallurgical operations. ]"
+      },
+      {
+        "divison_code": "14",
+        "division_title": "Other mining and quarrying"
+      }
+    ]
+  },
+  "D": {
+    "section_title": "Manufacturing",
+    "divisions": [
+      {
+        "divison_code": "15",
+        "division_title": "Manufacture of food products and beverages"
+      },
+      {
+        "divison_code": "16",
+        "division_title": "Manufacture of tobacco products"
+      },
+      {
+        "divison_code": "17",
+        "division_title": "Manufacture of textiles"
+      },
+      {
+        "divison_code": "18",
+        "division_title": "Manufacture of wearing apparel dressing and dyeing of fur"
+      },
+      {
+        "divison_code": "19",
+        "division_title": "Tanning and dressing of leather manufacture of luggage handbags saddlery harness and footwear"
+      },
+      {
+        "divison_code": "20",
+        "division_title": "Manufacture of wood and of products of wood and corkexcept furnituremanufacture of articles of straw and plating materials"
+      },
+      {
+        "divison_code": "21",
+        "division_title": "Manufacture of paper and paper products"
+      },
+      {
+        "divison_code": "22",
+        "division_title": "Publishing printing and reproduction of recorded media"
+      },
+      {
+        "divison_code": "23",
+        "division_title": "Manufacture of coke refined petroleum products and nuclear fuel"
+      },
+      {
+        "divison_code": "24",
+        "division_title": "Manufacture of chemicals and chemical products"
+      },
+      {
+        "divison_code": "25",
+        "division_title": "Manufacture of rubber and plastic products"
+      },
+      {
+        "divison_code": "26",
+        "division_title": "Manufacture of other non-metallic mineral products"
+      },
+      {
+        "divison_code": "27",
+        "division_title": "Manufacture of basic metals"
+      },
+      {
+        "divison_code": "28",
+        "division_title": "Manufacture of fabricated metal products except machinery and equipments"
+      },
+      {
+        "divison_code": "29",
+        "division_title": "Manufacture of machinery and equipment n.e.c."
+      },
+      {
+        "divison_code": "30",
+        "division_title": "Manufacture of office accounting and computing machinery"
+      },
+      {
+        "divison_code": "31",
+        "division_title": "Manufacture of electrical machinery and apparatus n.e.c."
+      },
+      {
+        "divison_code": "32",
+        "division_title": "Manufacture of radio television and communication equipment and apparatus"
+      },
+      {
+        "divison_code": "33",
+        "division_title": "Manufacture of medical precision and optical instruments watches and clocks"
+      },
+      {
+        "divison_code": "34",
+        "division_title": "Manufacture of motor vehicles trailers and semi-trailers"
+      },
+      {
+        "divison_code": "35",
+        "division_title": "Manufacture of other transport equipment"
+      },
+      {
+        "divison_code": "36",
+        "division_title": "Manufacture of furniture manufacturing n.e.c."
+      },
+      {
+        "divison_code": "37",
+        "division_title": "Recycling"
+      }
+    ]
+  },
+  "E": {
+    "section_title": "Electricity gas and water supply",
+    "divisions": [
+      {
+        "divison_code": "40",
+        "division_title": "Electricity gas steam and hot water supply"
+      },
+      {
+        "divison_code": "41",
+        "division_title": "Collection purification and distribution of water"
+      }
+    ]
+  },
+  "F": {
+    "section_title": "Construction",
+    "divisions": [
+      {
+        "divison_code": "45",
+        "division_title": "Construction"
+      },
+      {
+        "divison_code": "50",
+        "division_title": "Sale  maintenance and repair of motor vehicles and motorcycles retail sale of automotive fuel"
+      },
+      {
+        "divison_code": "51",
+        "division_title": "Wholesale trade and commission trade except of motor vehicles and motorcycles"
+      },
+      {
+        "divison_code": "52",
+        "division_title": "Retail trade except of motor vehicles and motorcycles repair of personal and household goods"
+      }
+    ]
+  },
+  "H": {
+    "section_title": "Hotels and restaurants",
+    "divisions": [
+      {
+        "divison_code": "55",
+        "division_title": "Hotels and restaurants"
+      }
+    ]
+  },
+  "I": {
+    "section_title": "Transport  storag and communications",
+    "divisions": [
+      {
+        "divison_code": "60",
+        "division_title": "Land transport transport via pipelines"
+      },
+      {
+        "divison_code": "61",
+        "division_title": "Water transport"
+      },
+      {
+        "divison_code": "62",
+        "division_title": "Air transport"
+      },
+      {
+        "divison_code": "63",
+        "division_title": "Supporting and auxilliary transport activities activities of travel agencies"
+      },
+      {
+        "divison_code": "64",
+        "division_title": "Post and telecommunications"
+      }
+    ]
+  },
+  "J": {
+    "section_title": "Financial intermediation",
+    "divisions": [
+      {
+        "divison_code": "65",
+        "division_title": "Financial intermediation except insurance and pension funding"
+      },
+      {
+        "divison_code": "66",
+        "division_title": "Insurance and pension funding except compulsory social security"
+      },
+      {
+        "divison_code": "67",
+        "division_title": "Activities auxiliary to financial intermediation"
+      }
+    ]
+  },
+  "K": {
+    "section_title": "Real estate renting and business activities",
+    "divisions": [
+      {
+        "divison_code": "70",
+        "division_title": "Real estate activities"
+      },
+      {
+        "divison_code": "71",
+        "division_title": "Renting of machinery and equipment without operator and of personal and household goods"
+      },
+      {
+        "divison_code": "72",
+        "division_title": "Computer and related activities"
+      },
+      {
+        "divison_code": "73",
+        "division_title": "Research and development"
+      },
+      {
+        "divison_code": "74",
+        "division_title": "Other business activities"
+      }
+    ]
+  },
+  "L": {
+    "section_title": "Public administration and defence compulsory social security",
+    "divisions": [
+      {
+        "divison_code": "75",
+        "division_title": "Public administration and defence compulsory social security"
+      }
+    ]
+  },
+  "M": {
+    "section_title": "Education",
+    "divisions": [
+      {
+        "divison_code": "80",
+        "division_title": "Education"
+      }
+    ]
+  },
+  "N": {
+    "section_title": "Health and social work",
+    "divisions": [
+      {
+        "divison_code": "85",
+        "division_title": "Health and social work"
+      }
+    ]
+  },
+  "O": {
+    "section_title": "Other community social and personal service activities",
+    "divisions": [
+      {
+        "divison_code": "90",
+        "division_title": "Sewage and refuse disposal sanitation and similar activities"
+      },
+      {
+        "divison_code": "91",
+        "division_title": "Activities of membership organisations n.e.c."
+      },
+      {
+        "divison_code": "92",
+        "division_title": "Recreational cultural and sporting activities"
+      },
+      {
+        "divison_code": "93",
+        "division_title": "Other service activities"
+      }
+    ]
+  },
+  "P": {
+    "section_title": "Undifferentiated production activities of private households and activities of private households as employers",
+    "divisions": [
+      {
+        "divison_code": "95",
+        "division_title": "Activities of private households as employers of domestic staff"
+      },
+      {
+        "divison_code": "96",
+        "division_title": "Undifferenciated goods-producing activities of private households for own use"
+      },
+      {
+        "divison_code": "97",
+        "division_title": "Undifferenciated service-producing activities of private households for own use"
+      }
+    ]
+  },
+  "Q": {
+    "section_title": "Extra territorial organizations and bodies",
+    "divisions": [
+      {
+        "divison_code": "99",
+        "division_title": "Extra territorial organizations and bodies"
+      }
+    ]
+  }
+}
