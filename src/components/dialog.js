@@ -53,6 +53,9 @@ export default function DialogBox(props) {
               Registrar of Companies (ROC) to the companies registered in India.
               The ROC gives the CIN to the companies while issuing their
               Registration Certificate.
+              <br></br>
+              Example: L93030DL2010PLC198141, U65999DL2016PLC304713 and
+              L99999MH1946PLC004768
             </p>
             <h1 className="dialog_heading">Breaking down CIN</h1>
             <p className="text">

@@ -24,7 +24,7 @@ const SearchButton = styled(Button)(({ theme }) => ({
   background: " #4865FF",
   borderRadius: "30px",
   width: "130px",
-  transform: "translate(180%, 20px)",
+  // transform: "translate(180%, 20px)",
   "&:hover": {
     background: " #4865FF",
   },
@@ -176,7 +176,11 @@ export default function Home() {
               <button onClick={handleClickOpen} className="need_help">
                 Need help with CIN?
               </button>
-              <SearchButton onClick={handleSearchBtnClick}>Search</SearchButton>
+              <div className="search_button_container">
+                <SearchButton onClick={handleSearchBtnClick}>
+                  Search
+                </SearchButton>
+              </div>
             </div>
           </div>
           {!_.isEmpty(section_division_obj) && (
@@ -186,6 +190,10 @@ export default function Home() {
                   <TableHead>
                     <TableRow>
                       <StyledTableCell align="right">Section</StyledTableCell>
+                      <StyledTableCell align="right">
+                        Section Title
+                      </StyledTableCell>
+
                       <StyledTableCell>Division code</StyledTableCell>
                       <StyledTableCell align="right">
                         Division title
@@ -196,6 +204,9 @@ export default function Home() {
                     <StyledTableRow key={section_division_obj.section}>
                       <StyledTableCell component="th" scope="row">
                         {section_division_obj.section}
+                      </StyledTableCell>
+                      <StyledTableCell component="th" scope="row">
+                        {section_division_obj.section_title}
                       </StyledTableCell>
                       <StyledTableCell align="right">
                         {section_division_obj.division_code}
