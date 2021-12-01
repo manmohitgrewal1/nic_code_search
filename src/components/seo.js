@@ -18,7 +18,7 @@ function Seo({ description, lang, meta, title }) {
         lang,
       }}
       title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+      titleTemplate={defaultTitle}
       meta={[
         {
           name: `description`,
@@ -64,7 +64,20 @@ function Seo({ description, lang, meta, title }) {
 
 Seo.defaultProps = {
   lang: `en`,
-  meta: [],
+  meta: [
+    {
+      name: `description`,
+      content: `NIC code for your business to obtain Udyog Aadhar. Find section and division of a incorporated company.`,
+    },
+    {
+      property: `og:title`,
+      content: "NIC Code Search",
+    },
+    {
+      property: `og:description`,
+      content: `NIC code for your business to obtain Udyog Aadhar. Find section and division of a incorporated company.`,
+    },
+  ],
   description: `NIC code for your business to obtain Udyog Aadhar. Find section and division of a incorporated company.`,
 }
 

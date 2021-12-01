@@ -108,13 +108,28 @@ export default function Header(props) {
               }}
             >
               <MenuItem>
-                <Typography textAlign="center">Decode CIN</Typography>
+                <a onClick={props.handleClickOpen}>
+                  {" "}
+                  <Typography textAlign="center">Decode CIN</Typography>
+                </a>
               </MenuItem>
               <MenuItem>
-                <Typography textAlign="center">Search Companies</Typography>
+                <a
+                  style={{ textDecoration: "none", color: "black" }}
+                  target="_blank"
+                  href="http://www.mca.gov.in/mcafoportal/viewCompanyMasterData.do"
+                >
+                  <Typography textAlign="center">Search Companies</Typography>
+                </a>
               </MenuItem>
               <MenuItem>
-                <Typography textAlign="center">NIC 2004 PDF</Typography>
+                <a
+                  target="_blank"
+                  style={{ textDecoration: "none", color: "black" }}
+                  href="http://mospi.nic.in/sites/default/files/main_menu/national_industrial_classification/nic_2004_struc_detail.pdf"
+                >
+                  <Typography textAlign="center">NIC 2004 PDF</Typography>
+                </a>
               </MenuItem>
             </Menu>
           </Box>
