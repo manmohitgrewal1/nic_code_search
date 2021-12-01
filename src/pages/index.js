@@ -15,6 +15,8 @@ import TableContainer from "@mui/material/TableContainer"
 import TableHead from "@mui/material/TableHead"
 import TableRow from "@mui/material/TableRow"
 import Paper from "@mui/material/Paper"
+import { Helmet } from "react-helmet"
+
 import DialogBox from "../components/dialog.js"
 import Seo from "../components/seo"
 const _ = require("lodash")
@@ -141,10 +143,12 @@ export default function Home() {
   }
 
   const handleClickOpen = () => {
+    console.log("Open")
     setDialogStatus(true)
   }
 
   const handleClose = () => {
+    console.log("Close")
     setDialogStatus(false)
   }
   return (
@@ -154,6 +158,22 @@ export default function Home() {
         description="NIC code for your business to obtain Udyog Aadhar. Find section and division of a incorporated company."
         lang="en"
       />
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>NIC Code Search</title>
+        <meta
+          name="keywords"
+          content="NIC code, CIN code, MCA cin number, Alternative data, crustdata, crustdata alternative data"
+          data-react-helmet="true"
+        ></meta>
+        <meta
+          name="description"
+          content="NIC code for your business to obtain Udyog Aadhar. Find section and division of a incorporated company."
+          data-react-helmet="true"
+        ></meta>
+        <link rel="canonical" href="http://niccode.com" />
+        <link href="https://crustdata.com" />
+      </Helmet>
       <Header handleClickOpen={handleClickOpen} />
       <DialogBox open={is_dialog_open} handleClose={handleClose} />
       <main>
